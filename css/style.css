@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+header{
+}
+.header-section{
+    overflow:  hidden;
+    display:  block;
+}
+.container{
+}
+.header-content{
+    width: 100%;
+    display:  block;
+    overflow:  hidden;
+    background: #2e4c5a;
+}
+
+
+
+
+.logo{
+    width: 20%;
+}
+.logo img {
+    float: left;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20PX;
+    padding: 0;
+}
+
+.header-content .login-box{
+    float: left;
+    width: 70%;
+    text-align:  right;
+    padding:  0;
+    margin-top: 5px;
+}
+.login-box{}
+
+.login-box input{
+    padding: 5px 10px;
+}
+.header-content .login-box a{}
+.header-content a{
+    padding:  0;
+    margin-top: 9px;
+    float: left;
+    display:  block;
+    margin-left: 20px;
+    font-size: 13px;
+    color:  white;
+    width: 10%;
+    text-decoration:  none;
+}
+
+.signup-box{background: url(../image/bg.jpg);
+background-size: cover;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+.signup-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    background: #0e2d2f52;
+    width: 376px;
+    height: 420px;
+    padding: 20px 26px;
+}
+.signup-content h1{
+    margin:  0;
+    padding:  0;
+    text-align:  center;
+    color: #2e4c5a;
+}
+.signup-content h2{
+    margin:  0;
+    padding:  0;
+    font-size: 15px;
+    text-align:  center;
+    letter-spacing: 1px;
+    color: #2e4c5a;
+}
+
+.form{}
+.form h2{
+    margin: 15px;
+    text-align:  center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.form p{
+    margin:  0;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.form a{
+    border:  1px solid;
+    width: 100%;
+}
+.form button{
+    width:  100%;
+    padding:  5px;
+    border:  1px solid;
+    font-size:  15px;
+    color:  white;
+    background: #2026da;
+    border-radius: 4px;
+}
